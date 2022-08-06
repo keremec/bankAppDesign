@@ -27,6 +27,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5t-5p-ZiV">
+                                <rect key="frame" x="357" y="64" width="57" height="40.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="bell.circle" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                                    </preferredSymbolConfiguration>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                            </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Kw5-bL-HxR">
                                 <rect key="frame" x="77" y="123.5" width="260" height="32"/>
                                 <segments>
@@ -41,8 +51,8 @@
                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₺320,22" textAlignment="center" lineBreakMode="wordWrap" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="lMz-qD-8DZ">
-                                <rect key="frame" x="92.5" y="183.5" width="229.5" height="75.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₺120,41" textAlignment="center" lineBreakMode="wordWrap" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="lMz-qD-8DZ">
+                                <rect key="frame" x="94.5" y="183.5" width="225" height="75.5"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="58"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -212,10 +222,66 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jDl-3P-JvJ">
+                                <rect key="frame" x="0.0" y="798" width="414" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30m-gc-jUS">
+                                        <rect key="frame" x="0.0" y="0.0" width="103.5" height="64"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="house.circle.fill" catalog="system" imagePlacement="top" subtitle="Home" imagePadding="2">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
+                                            </preferredSymbolConfiguration>
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="393-bO-kgn">
+                                        <rect key="frame" x="103.5" y="0.0" width="103.5" height="64"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="creditcard.circle" catalog="system" imagePlacement="top" subtitle="Card" imagePadding="2">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
+                                            </preferredSymbolConfiguration>
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nRS-go-0Uh">
+                                        <rect key="frame" x="207" y="0.0" width="103.5" height="64"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="paperplane.circle" catalog="system" imagePlacement="top" subtitle="Transfer" imagePadding="2">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
+                                            </preferredSymbolConfiguration>
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxu-0W-QXj">
+                                        <rect key="frame" x="310.5" y="0.0" width="103.5" height="64"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="person.crop.circle" catalog="system" imagePlacement="top" subtitle="Profile" imagePadding="2">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
+                                            </preferredSymbolConfiguration>
+                                            <color key="baseForegroundColor" systemColor="labelColor"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xoz-EC-VYt">
+                                <rect key="frame" x="0.0" y="64" width="57" height="40.5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="list.bullet.circle" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                                    </preferredSymbolConfiguration>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M5t-5p-ZiV" secondAttribute="trailing" id="0KR-Pv-yNE"/>
                             <constraint firstItem="enm-UG-axD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Wb-MQ-1QC"/>
                             <constraint firstItem="aUo-gm-e9F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="4qc-HP-Gur"/>
                             <constraint firstItem="enm-UG-axD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="69C-NF-bXT"/>
@@ -229,10 +295,16 @@
                             <constraint firstItem="dP9-aX-OuL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="PWJ-Df-FyK"/>
                             <constraint firstItem="5NT-An-4QE" firstAttribute="top" secondItem="7Ro-Qq-efz" secondAttribute="bottom" constant="22" id="QPS-yZ-AA2"/>
                             <constraint firstItem="kfo-SV-EKl" firstAttribute="top" secondItem="dP9-aX-OuL" secondAttribute="bottom" constant="11" id="S3k-dJ-e33"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jDl-3P-JvJ" secondAttribute="trailing" id="T6z-bx-sDS"/>
                             <constraint firstItem="dP9-aX-OuL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WRU-7Z-7Zi"/>
+                            <constraint firstItem="M5t-5p-ZiV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Wbg-KA-0mo"/>
                             <constraint firstItem="7Ro-Qq-efz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aYQ-K0-N9j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jDl-3P-JvJ" secondAttribute="bottom" id="bqB-3b-D2J"/>
+                            <constraint firstItem="Xoz-EC-VYt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="cI6-yL-yvn"/>
                             <constraint firstItem="Kw5-bL-HxR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="dT3-1T-NOV"/>
+                            <constraint firstItem="jDl-3P-JvJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gW1-bE-PEH"/>
                             <constraint firstItem="Qph-Vh-4ip" firstAttribute="top" secondItem="dP9-aX-OuL" secondAttribute="bottom" constant="11" id="jkC-Zr-OxJ"/>
+                            <constraint firstItem="Xoz-EC-VYt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kuF-z6-a0p"/>
                             <constraint firstItem="dP9-aX-OuL" firstAttribute="top" secondItem="Kw5-bL-HxR" secondAttribute="bottom" constant="7.5" id="rfc-yF-yBg"/>
                             <constraint firstItem="7Ro-Qq-efz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xHx-xP-0zv"/>
                             <constraint firstItem="Kw5-bL-HxR" firstAttribute="top" secondItem="enm-UG-axD" secondAttribute="bottom" constant="25" id="yWJ-aY-ef8"/>
@@ -247,11 +319,17 @@
     </scenes>
     <resources>
         <image name="airplane.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="bell.circle" catalog="system" width="128" height="121"/>
         <image name="book.circle.fill" catalog="system" width="128" height="121"/>
         <image name="cart.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="creditcard.circle" catalog="system" width="128" height="121"/>
         <image name="dollarsign.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="house.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="list.bullet.circle" catalog="system" width="128" height="121"/>
         <image name="minus.circle" catalog="system" width="128" height="121"/>
+        <image name="paperplane.circle" catalog="system" width="128" height="121"/>
         <image name="person.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="121"/>
         <image name="plus.circle" catalog="system" width="128" height="121"/>
         <image name="tv.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
