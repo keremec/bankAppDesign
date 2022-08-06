@@ -8,8 +8,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="CreteRound-Regular.ttf">
-            <string>CreteRound-Regular</string>
+        <array key="Baloo2-Medium.ttf">
+            <string>Baloo2-Medium</string>
+        </array>
+        <array key="Baloo2-Regular.ttf">
+            <string>Baloo2-Regular</string>
+        </array>
+        <array key="Baloo2-SemiBold.ttf">
+            <string>Baloo2-SemiBold</string>
         </array>
     </customFonts>
     <scenes>
@@ -22,8 +28,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Big Bank" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enm-UG-axD">
-                                <rect key="frame" x="154" y="64" width="106.5" height="34.5"/>
-                                <fontDescription key="fontDescription" name="CreteRound-Regular" family="Crete Round" pointSize="27"/>
+                                <rect key="frame" x="155" y="64" width="104" height="42.5"/>
+                                <fontDescription key="fontDescription" name="Baloo2-SemiBold" family="Baloo 2" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -38,230 +44,234 @@
                                 </buttonConfiguration>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Kw5-bL-HxR">
-                                <rect key="frame" x="77" y="123.5" width="260" height="32"/>
+                                <rect key="frame" x="77" y="121.5" width="260" height="32"/>
                                 <segments>
-                                    <segment title="TL"/>
-                                    <segment title="USD"/>
-                                    <segment title="EUR"/>
+                                    <segment title="" image="turkishlirasign.circle.fill" catalog="system"/>
+                                    <segment title="" image="dollarsign.circle" catalog="system"/>
+                                    <segment title="" image="eurosign.circle" catalog="system"/>
                                 </segments>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dP9-aX-OuL">
-                                <rect key="frame" x="0.0" y="162" width="414" height="20.5"/>
+                                <rect key="frame" x="0.0" y="160" width="414" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₺120,41" textAlignment="center" lineBreakMode="wordWrap" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="lMz-qD-8DZ">
-                                <rect key="frame" x="94.5" y="183.5" width="225" height="75.5"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="58"/>
+                                <rect key="frame" x="109" y="170.5" width="196.5" height="101"/>
+                                <fontDescription key="fontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="64"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="kfo-SV-EKl">
-                                <rect key="frame" x="331.5" y="193.5" width="67.5" height="60"/>
+                                <rect key="frame" x="335" y="191.5" width="64" height="61.5"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="plus.circle" catalog="system" imagePlacement="top" subtitle="Deposit" imagePadding="5">
+                                <buttonConfiguration key="configuration" style="plain" image="plus.circle" catalog="system" imagePlacement="top" subtitle="Deposit" imagePadding="2">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                     </preferredSymbolConfiguration>
-                                    <fontDescription key="subtitleFontDescription" type="system" weight="light" pointSize="0.0"/>
+                                    <fontDescription key="subtitleFontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="12"/>
                                     <color key="baseForegroundColor" systemColor="systemGreenColor"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qph-Vh-4ip">
-                                <rect key="frame" x="15" y="193.5" width="77" height="60"/>
+                                <rect key="frame" x="15" y="191.5" width="73.5" height="61.5"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="minus.circle" catalog="system" imagePlacement="top" subtitle="Withdraw" imagePadding="5">
+                                <buttonConfiguration key="configuration" style="plain" image="minus.circle" catalog="system" imagePlacement="top" subtitle="Withdraw" imagePadding="2">
                                     <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
                                     </preferredSymbolConfiguration>
-                                    <fontDescription key="subtitleFontDescription" type="system" weight="light" pointSize="0.0"/>
+                                    <fontDescription key="subtitleFontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="12"/>
                                     <color key="baseForegroundColor" systemColor="systemRedColor"/>
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transactions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ro-Qq-efz">
-                                <rect key="frame" x="0.0" y="266" width="414" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="0.0" y="278.5" width="414" height="28.5"/>
+                                <fontDescription key="fontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="18"/>
                                 <color key="textColor" systemColor="opaqueSeparatorColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="aUo-gm-e9F">
-                                <rect key="frame" x="15" y="306.5" width="261" height="430"/>
+                                <rect key="frame" x="15" y="327" width="266.5" height="421"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2F-pb-gEt">
-                                        <rect key="frame" x="0.0" y="0.0" width="261" height="67.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="266.5" height="66"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="cart.circle.fill" catalog="system" title="Hepsiburada" subtitle="Credit Card" imagePadding="15">
+                                        <buttonConfiguration key="configuration" style="plain" image="cart.circle.fill" catalog="system" title="Hepsiburada" subtitle="Credit Card" imagePadding="15" titlePadding="-7">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="44"/>
                                             </preferredSymbolConfiguration>
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
-                                            <fontDescription key="subtitleFontDescription" type="system" weight="thin" pointSize="12"/>
+                                            <fontDescription key="titleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="24"/>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="12"/>
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsF-h7-Ymv">
-                                        <rect key="frame" x="0.0" y="72.5" width="261" height="67.5"/>
+                                        <rect key="frame" x="0.0" y="71" width="266.5" height="66"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="person.circle.fill" catalog="system" title="Kerem Safa" subtitle="Cash Transfer" imagePadding="15">
+                                        <buttonConfiguration key="configuration" style="plain" image="person.circle.fill" catalog="system" title="Kerem Safa" subtitle="Cash Transfer" imagePadding="15" titlePadding="-7">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="44"/>
                                             </preferredSymbolConfiguration>
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
-                                            <fontDescription key="subtitleFontDescription" type="system" weight="thin" pointSize="12"/>
+                                            <fontDescription key="titleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="24"/>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="12"/>
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OZ-Mk-VWU">
-                                        <rect key="frame" x="0.0" y="145" width="261" height="67.5"/>
+                                        <rect key="frame" x="0.0" y="142" width="266.5" height="66"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="airplane.circle.fill" catalog="system" title="Turkish Airlines" subtitle="Credit Card" imagePadding="15">
+                                        <buttonConfiguration key="configuration" style="plain" image="airplane.circle.fill" catalog="system" title="Turkish Airlines" subtitle="Credit Card" imagePadding="15" titlePadding="-7">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="44"/>
                                             </preferredSymbolConfiguration>
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
-                                            <fontDescription key="subtitleFontDescription" type="system" weight="thin" pointSize="12"/>
+                                            <fontDescription key="titleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="24"/>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="12"/>
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8x-Re-yCL">
-                                        <rect key="frame" x="0.0" y="217.5" width="261" height="67.5"/>
+                                        <rect key="frame" x="0.0" y="213" width="266.5" height="66"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="book.circle.fill" catalog="system" title="Kitapyurdu" subtitle="Credit Card" imagePadding="15">
+                                        <buttonConfiguration key="configuration" style="plain" image="book.circle.fill" catalog="system" title="Kitapyurdu" subtitle="Credit Card" imagePadding="15" titlePadding="-7">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="44"/>
                                             </preferredSymbolConfiguration>
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
-                                            <fontDescription key="subtitleFontDescription" type="system" weight="thin" pointSize="12"/>
+                                            <fontDescription key="titleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="24"/>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="12"/>
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uCy-9N-LnE">
-                                        <rect key="frame" x="0.0" y="290" width="261" height="67.5"/>
+                                        <rect key="frame" x="0.0" y="284" width="266.5" height="66"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="tv.circle.fill" catalog="system" title="Netflix" subtitle="Credit Card" imagePadding="15">
+                                        <buttonConfiguration key="configuration" style="plain" image="tv.circle.fill" catalog="system" title="Netflix" subtitle="Credit Card" imagePadding="15" titlePadding="-7">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="44"/>
                                             </preferredSymbolConfiguration>
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
-                                            <fontDescription key="subtitleFontDescription" type="system" weight="thin" pointSize="12"/>
+                                            <fontDescription key="titleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="24"/>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="12"/>
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Il-IH-lfm">
-                                        <rect key="frame" x="0.0" y="362.5" width="261" height="67.5"/>
+                                        <rect key="frame" x="0.0" y="355" width="266.5" height="66"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="dollarsign.circle.fill" catalog="system" title="USD" subtitle="Exchange (Buy)" imagePadding="15">
+                                        <buttonConfiguration key="configuration" style="plain" image="dollarsign.circle.fill" catalog="system" title="USD" subtitle="Exchange (Buy)" imagePadding="15" titlePadding="-6">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="44"/>
                                             </preferredSymbolConfiguration>
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
-                                            <fontDescription key="subtitleFontDescription" type="system" weight="thin" pointSize="12"/>
+                                            <fontDescription key="titleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="24"/>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="12"/>
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                         </buttonConfiguration>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="topRight" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="5NT-An-4QE">
-                                <rect key="frame" x="267.5" y="308.5" width="131.5" height="426"/>
+                            <stackView opaque="NO" contentMode="topRight" axis="vertical" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="5NT-An-4QE">
+                                <rect key="frame" x="282.5" y="332" width="116.5" height="414"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJx-41-Fsh">
-                                        <rect key="frame" x="0.0" y="0.0" width="131.5" height="58.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="116.5" height="61.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="₺4395.45" subtitle="14.08.2022" titleAlignment="trailing">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
-                                            <fontDescription key="subtitleFontDescription" type="system" weight="light" pointSize="12"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="₺4395.45" subtitle="14.08.2022" titlePadding="-8" titleAlignment="trailing">
+                                            <fontDescription key="titleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="23"/>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="12"/>
                                             <color key="baseForegroundColor" systemColor="systemRedColor"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24W-Pv-vU4">
-                                        <rect key="frame" x="0.0" y="73.5" width="131.5" height="58.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLQ-71-4sf">
+                                        <rect key="frame" x="0.0" y="70.5" width="116.5" height="61.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="₺125" subtitle="12.08.2022" titleAlignment="trailing">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
-                                            <fontDescription key="subtitleFontDescription" type="system" weight="light" pointSize="12"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="₺520" subtitle="02.08.2022" titlePadding="-8" titleAlignment="trailing">
+                                            <fontDescription key="titleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="23"/>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="12"/>
                                             <color key="baseForegroundColor" systemColor="systemGreenColor"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fO3-UB-S45">
-                                        <rect key="frame" x="0.0" y="147" width="131.5" height="58.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVD-e1-lno">
+                                        <rect key="frame" x="0.0" y="141" width="116.5" height="61.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="₺825.46" subtitle="09.08.2022" titleAlignment="trailing">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
-                                            <fontDescription key="subtitleFontDescription" type="system" weight="light" pointSize="12"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="₺897.25" subtitle="01.08.2022" titlePadding="-8" titleAlignment="trailing">
+                                            <fontDescription key="titleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="23"/>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="12"/>
                                             <color key="baseForegroundColor" systemColor="systemRedColor"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LX4-tP-FnY">
-                                        <rect key="frame" x="0.0" y="220.5" width="131.5" height="58.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cs-Bs-dfw">
+                                        <rect key="frame" x="0.0" y="211.5" width="116.5" height="61.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="₺25.20" subtitle="06.08.2022" titleAlignment="trailing">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
-                                            <fontDescription key="subtitleFontDescription" type="system" weight="light" pointSize="12"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="₺45.24" subtitle="24.07.2022" titlePadding="-8" titleAlignment="trailing">
+                                            <fontDescription key="titleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="23"/>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="12"/>
                                             <color key="baseForegroundColor" systemColor="systemRedColor"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87V-zY-e0Z">
-                                        <rect key="frame" x="0.0" y="294" width="131.5" height="58.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RA-CM-8P6">
+                                        <rect key="frame" x="0.0" y="282" width="116.5" height="61.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="₺45.90" subtitle="05.08.2022" titleAlignment="trailing">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
-                                            <fontDescription key="subtitleFontDescription" type="system" weight="light" pointSize="12"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="₺65.99" subtitle="12.07.2022" titlePadding="-8" titleAlignment="trailing">
+                                            <fontDescription key="titleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="23"/>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="12"/>
                                             <color key="baseForegroundColor" systemColor="systemRedColor"/>
                                         </buttonConfiguration>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcI-i9-1uc">
-                                        <rect key="frame" x="0.0" y="367.5" width="131.5" height="58.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="by2-c0-lFD">
+                                        <rect key="frame" x="0.0" y="352.5" width="116.5" height="61.5"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="₺125.46" subtitle="26.07.2022" titleAlignment="trailing">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
-                                            <fontDescription key="subtitleFontDescription" type="system" weight="light" pointSize="12"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="₺285.65" subtitle="02.07.2022" titlePadding="-8" titleAlignment="trailing">
+                                            <fontDescription key="titleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="23"/>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Medium" family="Baloo 2" pointSize="12"/>
                                             <color key="baseForegroundColor" systemColor="systemRedColor"/>
                                         </buttonConfiguration>
                                     </button>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jDl-3P-JvJ">
-                                <rect key="frame" x="0.0" y="798" width="414" height="64"/>
+                                <rect key="frame" x="0.0" y="787" width="414" height="75"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30m-gc-jUS">
-                                        <rect key="frame" x="0.0" y="0.0" width="103.5" height="64"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="103.5" height="75"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="house.circle.fill" catalog="system" imagePlacement="top" subtitle="Home" imagePadding="2">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
                                             </preferredSymbolConfiguration>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="16"/>
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="393-bO-kgn">
-                                        <rect key="frame" x="103.5" y="0.0" width="103.5" height="64"/>
+                                        <rect key="frame" x="103.5" y="0.0" width="103.5" height="75"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="creditcard.circle" catalog="system" imagePlacement="top" subtitle="Card" imagePadding="2">
+                                        <buttonConfiguration key="configuration" style="plain" image="creditcard.circle" catalog="system" imagePlacement="top" subtitle="Card" imagePadding="0.0">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
                                             </preferredSymbolConfiguration>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="16"/>
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nRS-go-0Uh">
-                                        <rect key="frame" x="207" y="0.0" width="103.5" height="64"/>
+                                        <rect key="frame" x="207" y="0.0" width="103.5" height="75"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="paperplane.circle" catalog="system" imagePlacement="top" subtitle="Transfer" imagePadding="2">
+                                        <buttonConfiguration key="configuration" style="plain" image="paperplane.circle" catalog="system" imagePlacement="top" subtitle="Transfer" imagePadding="0.0">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
                                             </preferredSymbolConfiguration>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="16"/>
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxu-0W-QXj">
-                                        <rect key="frame" x="310.5" y="0.0" width="103.5" height="64"/>
+                                        <rect key="frame" x="310.5" y="0.0" width="103.5" height="75"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="person.crop.circle" catalog="system" imagePlacement="top" subtitle="Profile" imagePadding="2">
+                                        <buttonConfiguration key="configuration" style="plain" image="person.circle" catalog="system" imagePlacement="top" subtitle="Profile" imagePadding="0.0">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="font">
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
                                             </preferredSymbolConfiguration>
+                                            <fontDescription key="subtitleFontDescription" name="Baloo2-Regular" family="Baloo 2" pointSize="16"/>
                                             <color key="baseForegroundColor" systemColor="labelColor"/>
                                         </buttonConfiguration>
                                     </button>
@@ -293,7 +303,7 @@
                             <constraint firstItem="Qph-Vh-4ip" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="NgR-GC-H6g"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kfo-SV-EKl" secondAttribute="trailing" constant="15" id="Nz6-Xv-JrB"/>
                             <constraint firstItem="dP9-aX-OuL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="PWJ-Df-FyK"/>
-                            <constraint firstItem="5NT-An-4QE" firstAttribute="top" secondItem="7Ro-Qq-efz" secondAttribute="bottom" constant="22" id="QPS-yZ-AA2"/>
+                            <constraint firstItem="5NT-An-4QE" firstAttribute="top" secondItem="7Ro-Qq-efz" secondAttribute="bottom" constant="25" id="QPS-yZ-AA2"/>
                             <constraint firstItem="kfo-SV-EKl" firstAttribute="top" secondItem="dP9-aX-OuL" secondAttribute="bottom" constant="11" id="S3k-dJ-e33"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jDl-3P-JvJ" secondAttribute="trailing" id="T6z-bx-sDS"/>
                             <constraint firstItem="dP9-aX-OuL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WRU-7Z-7Zi"/>
@@ -307,8 +317,8 @@
                             <constraint firstItem="Xoz-EC-VYt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="kuF-z6-a0p"/>
                             <constraint firstItem="dP9-aX-OuL" firstAttribute="top" secondItem="Kw5-bL-HxR" secondAttribute="bottom" constant="7.5" id="rfc-yF-yBg"/>
                             <constraint firstItem="7Ro-Qq-efz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xHx-xP-0zv"/>
-                            <constraint firstItem="Kw5-bL-HxR" firstAttribute="top" secondItem="enm-UG-axD" secondAttribute="bottom" constant="25" id="yWJ-aY-ef8"/>
-                            <constraint firstItem="lMz-qD-8DZ" firstAttribute="top" secondItem="dP9-aX-OuL" secondAttribute="bottom" constant="1" id="yt3-5G-ZGl"/>
+                            <constraint firstItem="Kw5-bL-HxR" firstAttribute="top" secondItem="enm-UG-axD" secondAttribute="bottom" constant="15" id="yWJ-aY-ef8"/>
+                            <constraint firstItem="lMz-qD-8DZ" firstAttribute="top" secondItem="dP9-aX-OuL" secondAttribute="bottom" constant="-10" id="yt3-5G-ZGl"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -323,14 +333,17 @@
         <image name="book.circle.fill" catalog="system" width="128" height="121"/>
         <image name="cart.circle.fill" catalog="system" width="128" height="121"/>
         <image name="creditcard.circle" catalog="system" width="128" height="121"/>
+        <image name="dollarsign.circle" catalog="system" width="128" height="121"/>
         <image name="dollarsign.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="eurosign.circle" catalog="system" width="128" height="121"/>
         <image name="house.circle.fill" catalog="system" width="128" height="121"/>
         <image name="list.bullet.circle" catalog="system" width="128" height="121"/>
         <image name="minus.circle" catalog="system" width="128" height="121"/>
         <image name="paperplane.circle" catalog="system" width="128" height="121"/>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
         <image name="person.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="person.crop.circle" catalog="system" width="128" height="121"/>
         <image name="plus.circle" catalog="system" width="128" height="121"/>
+        <image name="turkishlirasign.circle.fill" catalog="system" width="128" height="121"/>
         <image name="tv.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

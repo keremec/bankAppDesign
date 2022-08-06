@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0C95A441289EA0B500CB28B6 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C95A440289EA0B500CB28B6 /* Pacifico-Regular.ttf */; };
+		0C95A443289ED95D00CB28B6 /* Baloo2-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C95A442289ED95D00CB28B6 /* Baloo2-Medium.ttf */; };
+		0C95A445289EDAA300CB28B6 /* Baloo2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C95A444289EDAA300CB28B6 /* Baloo2-Bold.ttf */; };
+		0C95A447289EDAB300CB28B6 /* Baloo2-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C95A446289EDAB300CB28B6 /* Baloo2-SemiBold.ttf */; };
+		0C95A449289EDABC00CB28B6 /* Baloo2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C95A448289EDABC00CB28B6 /* Baloo2-Regular.ttf */; };
 		0CD451FF289E991A00BF29E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD451FE289E991A00BF29E0 /* AppDelegate.swift */; };
 		0CD45201289E991A00BF29E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD45200289E991A00BF29E0 /* SceneDelegate.swift */; };
 		0CD45203289E991A00BF29E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD45202289E991A00BF29E0 /* ViewController.swift */; };
@@ -20,6 +24,12 @@
 
 /* Begin PBXFileReference section */
 		0C95A440289EA0B500CB28B6 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		0C95A442289ED95D00CB28B6 /* Baloo2-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-Medium.ttf"; sourceTree = "<group>"; };
+		0C95A444289EDAA300CB28B6 /* Baloo2-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-Bold.ttf"; sourceTree = "<group>"; };
+		0C95A446289EDAB300CB28B6 /* Baloo2-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-SemiBold.ttf"; sourceTree = "<group>"; };
+		0C95A448289EDABC00CB28B6 /* Baloo2-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baloo2-Regular.ttf"; sourceTree = "<group>"; };
+		0C95A44A289EE41200CB28B6 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		0C95A44B289EE41200CB28B6 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		0CD451FB289E991A00BF29E0 /* Odev3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Odev3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD451FE289E991A00BF29E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CD45200289E991A00BF29E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +90,10 @@
 				0C95A440289EA0B500CB28B6 /* Pacifico-Regular.ttf */,
 				0CD45215289E9ECE00BF29E0 /* BebasNeue-Regular.ttf */,
 				0CD45213289E9AE900BF29E0 /* CreteRound-Regular.ttf */,
+				0C95A446289EDAB300CB28B6 /* Baloo2-SemiBold.ttf */,
+				0C95A448289EDABC00CB28B6 /* Baloo2-Regular.ttf */,
+				0C95A444289EDAA300CB28B6 /* Baloo2-Bold.ttf */,
+				0C95A442289ED95D00CB28B6 /* Baloo2-Medium.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -126,6 +140,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = 0CD451F2289E991A00BF29E0;
 			productRefGroup = 0CD451FC289E991A00BF29E0 /* Products */;
@@ -142,11 +157,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C95A445289EDAA300CB28B6 /* Baloo2-Bold.ttf in Resources */,
 				0CD45216289E9ECE00BF29E0 /* BebasNeue-Regular.ttf in Resources */,
 				0CD45214289E9AE900BF29E0 /* CreteRound-Regular.ttf in Resources */,
+				0C95A443289ED95D00CB28B6 /* Baloo2-Medium.ttf in Resources */,
 				0CD4520B289E991D00BF29E0 /* LaunchScreen.storyboard in Resources */,
 				0C95A441289EA0B500CB28B6 /* Pacifico-Regular.ttf in Resources */,
 				0CD45208289E991D00BF29E0 /* Assets.xcassets in Resources */,
+				0C95A447289EDAB300CB28B6 /* Baloo2-SemiBold.ttf in Resources */,
+				0C95A449289EDABC00CB28B6 /* Baloo2-Regular.ttf in Resources */,
 				0CD45206289E991A00BF29E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -171,6 +190,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0CD45205289E991A00BF29E0 /* Base */,
+				0C95A44A289EE41200CB28B6 /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -179,6 +199,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				0CD4520A289E991D00BF29E0 /* Base */,
+				0C95A44B289EE41200CB28B6 /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -190,6 +211,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -250,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -310,6 +333,7 @@
 				DEVELOPMENT_TEAM = 79SWHBWQMY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Odev3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Big Bank";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -338,6 +362,7 @@
 				DEVELOPMENT_TEAM = 79SWHBWQMY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Odev3/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Big Bank";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

@@ -1,0 +1,162 @@
+
+/* Class = "UIButton"; configuration.subtitle = "Home"; ObjectID = "30m-gc-jUS"; */
+"30m-gc-jUS.configuration.subtitle" = "Anasayfa";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "30m-gc-jUS"; */
+"30m-gc-jUS.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Card"; ObjectID = "393-bO-kgn"; */
+"393-bO-kgn.configuration.subtitle" = "Kart";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "393-bO-kgn"; */
+"393-bO-kgn.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Exchange (Buy)"; ObjectID = "4Il-IH-lfm"; */
+"4Il-IH-lfm.configuration.subtitle" = "Döviz (Al)";
+
+/* Class = "UIButton"; configuration.title = "USD"; ObjectID = "4Il-IH-lfm"; */
+"4Il-IH-lfm.configuration.title" = "USD";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4Il-IH-lfm"; */
+"4Il-IH-lfm.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Credit Card"; ObjectID = "5OZ-Mk-VWU"; */
+"5OZ-Mk-VWU.configuration.subtitle" = "Kredi Kartı";
+
+/* Class = "UIButton"; configuration.title = "Turkish Airlines"; ObjectID = "5OZ-Mk-VWU"; */
+"5OZ-Mk-VWU.configuration.title" = "Turkish Airlines";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5OZ-Mk-VWU"; */
+"5OZ-Mk-VWU.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Transactions"; ObjectID = "7Ro-Qq-efz"; */
+"7Ro-Qq-efz.text" = "Son İşlemler";
+
+/* Class = "UIButton"; configuration.subtitle = "12.07.2022"; ObjectID = "9RA-CM-8P6"; */
+"9RA-CM-8P6.configuration.subtitle" = "12.07.2022";
+
+/* Class = "UIButton"; configuration.title = "₺65.99"; ObjectID = "9RA-CM-8P6"; */
+"9RA-CM-8P6.configuration.title" = "₺65.99";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9RA-CM-8P6"; */
+"9RA-CM-8P6.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "24.07.2022"; ObjectID = "9cs-Bs-dfw"; */
+"9cs-Bs-dfw.configuration.subtitle" = "24.07.2022";
+
+/* Class = "UIButton"; configuration.title = "₺45.24"; ObjectID = "9cs-Bs-dfw"; */
+"9cs-Bs-dfw.configuration.title" = "₺45.24";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9cs-Bs-dfw"; */
+"9cs-Bs-dfw.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "14.08.2022"; ObjectID = "AJx-41-Fsh"; */
+"AJx-41-Fsh.configuration.subtitle" = "14.08.2022";
+
+/* Class = "UIButton"; configuration.title = "₺4395.45"; ObjectID = "AJx-41-Fsh"; */
+"AJx-41-Fsh.configuration.title" = "₺4395.45";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "AJx-41-Fsh"; */
+"AJx-41-Fsh.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Credit Card"; ObjectID = "J8x-Re-yCL"; */
+"J8x-Re-yCL.configuration.subtitle" = "Kredi Kartı";
+
+/* Class = "UIButton"; configuration.title = "Kitapyurdu"; ObjectID = "J8x-Re-yCL"; */
+"J8x-Re-yCL.configuration.title" = "Kitapyurdu";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "J8x-Re-yCL"; */
+"J8x-Re-yCL.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "M5t-5p-ZiV"; */
+"M5t-5p-ZiV.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Withdraw"; ObjectID = "Qph-Vh-4ip"; */
+"Qph-Vh-4ip.configuration.subtitle" = "Çek";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Qph-Vh-4ip"; */
+"Qph-Vh-4ip.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "02.08.2022"; ObjectID = "RLQ-71-4sf"; */
+"RLQ-71-4sf.configuration.subtitle" = "02.08.2022";
+
+/* Class = "UIButton"; configuration.title = "₺520"; ObjectID = "RLQ-71-4sf"; */
+"RLQ-71-4sf.configuration.title" = "₺520";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "RLQ-71-4sf"; */
+"RLQ-71-4sf.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Credit Card"; ObjectID = "S2F-pb-gEt"; */
+"S2F-pb-gEt.configuration.subtitle" = "Kredi Kartı";
+
+/* Class = "UIButton"; configuration.title = "Hepsiburada"; ObjectID = "S2F-pb-gEt"; */
+"S2F-pb-gEt.configuration.title" = "Hepsiburada";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "S2F-pb-gEt"; */
+"S2F-pb-gEt.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Xoz-EC-VYt"; */
+"Xoz-EC-VYt.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "02.07.2022"; ObjectID = "by2-c0-lFD"; */
+"by2-c0-lFD.configuration.subtitle" = "02.07.2022";
+
+/* Class = "UIButton"; configuration.title = "₺285.65"; ObjectID = "by2-c0-lFD"; */
+"by2-c0-lFD.configuration.title" = "₺285.65";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "by2-c0-lFD"; */
+"by2-c0-lFD.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = " "; ObjectID = "dP9-aX-OuL"; */
+"dP9-aX-OuL.text" = " ";
+
+/* Class = "UILabel"; text = "Big Bank"; ObjectID = "enm-UG-axD"; */
+"enm-UG-axD.text" = "Big Bank";
+
+/* Class = "UIButton"; configuration.subtitle = "Deposit"; ObjectID = "kfo-SV-EKl"; */
+"kfo-SV-EKl.configuration.subtitle" = "Yatır";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kfo-SV-EKl"; */
+"kfo-SV-EKl.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "₺120,41"; ObjectID = "lMz-qD-8DZ"; */
+"lMz-qD-8DZ.text" = "₺120,41";
+
+/* Class = "UIButton"; configuration.subtitle = "Transfer"; ObjectID = "nRS-go-0Uh"; */
+"nRS-go-0Uh.configuration.subtitle" = "Transfer";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nRS-go-0Uh"; */
+"nRS-go-0Uh.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "01.08.2022"; ObjectID = "pVD-e1-lno"; */
+"pVD-e1-lno.configuration.subtitle" = "01.08.2022";
+
+/* Class = "UIButton"; configuration.title = "₺897.25"; ObjectID = "pVD-e1-lno"; */
+"pVD-e1-lno.configuration.title" = "₺897.25";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pVD-e1-lno"; */
+"pVD-e1-lno.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Profile"; ObjectID = "sxu-0W-QXj"; */
+"sxu-0W-QXj.configuration.subtitle" = "Profil";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sxu-0W-QXj"; */
+"sxu-0W-QXj.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Cash Transfer"; ObjectID = "tsF-h7-Ymv"; */
+"tsF-h7-Ymv.configuration.subtitle" = "Para Transferi";
+
+/* Class = "UIButton"; configuration.title = "Kerem Safa"; ObjectID = "tsF-h7-Ymv"; */
+"tsF-h7-Ymv.configuration.title" = "Kerem Safa";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "tsF-h7-Ymv"; */
+"tsF-h7-Ymv.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.subtitle = "Credit Card"; ObjectID = "uCy-9N-LnE"; */
+"uCy-9N-LnE.configuration.subtitle" = "Kredi Kartı";
+
+/* Class = "UIButton"; configuration.title = "Netflix"; ObjectID = "uCy-9N-LnE"; */
+"uCy-9N-LnE.configuration.title" = "Netflix";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "uCy-9N-LnE"; */
+"uCy-9N-LnE.normalTitle" = "Button";

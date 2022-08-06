@@ -7,6 +7,10 @@
 		<string>CreteRound-Regular.ttf</string>
 		<string>BebasNeue-Regular.ttf</string>
 		<string>Pacifico-Regular.ttf</string>
+		<string>Baloo2-Medium.ttf</string>
+		<string>Baloo2-Bold.ttf</string>
+		<string>Baloo2-Regular.ttf</string>
+		<string>Baloo2-SemiBold.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
